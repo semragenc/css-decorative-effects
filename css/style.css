@@ -1,0 +1,20 @@
+#box {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    box-shadow: #aa3131 50px 50px 20px;
+    /*Gölge verilir.*/
+    margin-top: 250px;
+    margin-left: 250px;
+    transition: all 2s ease-in-out;
+}
+
+p {
+    color: black;
+    font-size: center;
+    text-align: center;
+    text-decoration: overline;
+    /*altını çiz üstünü çiz vs. italik vs*/
+    text-shadow: 2px 2px 2px #000;
+    /* Gölge verilir. son px gölgenin bulanıklığını belirler*/
+}
