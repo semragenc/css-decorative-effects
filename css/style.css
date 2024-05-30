@@ -1,12 +1,20 @@
 #box {
-    width: 20px;
-    height: 20px;
+    width: 100px;
+    height: 100px;
     background-color: #000;
-    box-shadow: #aa3131 50px 50px 20px;
+    box-shadow: 0 2.8px 2.2px red, 0 6.7px 5.3px blue, 0 12.5px 10px green,
+            0 22.3px 17.9px purple, 0 41.8px 33.4px orange, 0 100px 80px teal;
     /*Gölge verilir.*/
     margin-top: 250px;
     margin-left: 250px;
     transition: all 2s ease-in-out;
+    
+}
+
+.box.relative {
+    position: relative;
+    top: 120px;
+    left: 120px;
 }
 
 p {
@@ -17,4 +25,72 @@ p {
     /*altını çiz üstünü çiz vs. italik vs*/
     text-shadow: 2px 2px 2px #000;
     /* Gölge verilir. son px gölgenin bulanıklığını belirler*/
+}
+HTML CSSResult Skip Results Iframe EDIT ON * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #2a2a2a;
+    background-color: #fafafa;
+}
+.hero {
+    min-height: 200px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2a2a2a;
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/06/01/33/forest-5375005_1280.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    background-position: right 30px bottom 20px;
+}
+
+.title {
+    margin-top: 0;
+}
+
+.text {
+    margin: 0;
+}
+.canvas{
+    max-width: 1000px;
+    height: 400px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/361/361678.png"),
+  url("https://cdn-icons-png.flaticon.com/512/4206/4206277.png"),
+  url("https://cdn-icons-png.flaticon.com/512/814/814513.png"),
+  url('https://stickerswiki.ams3.cdn.digitaloceanspaces.com/Pig_Valera/223715.512.webp'),
+  url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg");
+
+  background-size: 80px,
+  100px,
+  150px,
+  130px,
+  cover;
+  background-repeat: no-repeat;
+  background-position: top 120px right 130px,
+  top 270px left 130px,
+  center,
+  100px 60px,
+  center;
+  }
+.box-two{
+    width: 100px;
+    height: 100px;
+    color: green;
+    transform: colour 150ms ease-in-out 0ms, background-colour 150ms ease-in-out 150ms;
+}
+.box-three{
+    border: 1px solid #212121;
+    border-radius: 4px;
+    padding: 4px;
+    transition: transform 250ms ease-in-out;
+}
+.box-three :hover{
+    transform: scale(1.1)
 }
